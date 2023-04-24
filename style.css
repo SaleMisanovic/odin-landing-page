@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
 section{
@@ -61,4 +62,83 @@ nav ul li a{
     padding: 0.5em 1.5em;
     margin: 1em 0em;
     border-radius: 10px;
+}
+
+.sec-2 h2{
+    text-align: center;
+    padding:1em;
+}
+
+.info{
+    display: flex;
+    padding:1em;
+}
+
+.info .info-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info .info-box img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+}
+
+.info .info-box p {
+    padding:1em;
+    color: #1F2937;
+}
+
+.sec-3{
+    background-color: #E5E7EB;
+    padding-bottom: 5em;
+    padding-top: 5em;
+}
+.sec-3 p{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.sec-3 :nth-child(2){
+    text-align: end;
+    font-weight: bolder;
+}
+
+.sec-4{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.call{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 3em 4em;
+    color: #E5E7EB;
+}
+
+.call h4{
+    font-weight: bold;
+}
+
+.sign-up-2{
+    background-color: #3882F6;
+    color: E5E7EB;
+    padding: 0.5em 1.5em;
+    margin: 1em 0em;
+    border-radius: 10px;
+    border: 2px solid #E5E7EB;
+}
+
+footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 2em;
 }
